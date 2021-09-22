@@ -1,0 +1,109 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #ececec;
+}
+
+header {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container div {
+    padding: 1rem 1rem 0rem 1rem;
+    display: flex;
+}
+
+section div article {
+    width: 33.3%;
+    height: auto;
+    transition: box-shadow 0.3s ease;
+    background-color: #fff ;
+    margin: 0rem 0.3rem 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+    padding: 0rem 0rem 0rem 0rem;
+    cursor: pointer;
+}
+
+section article a:link {
+    color: black;
+    text-decoration: none;
+}
+
+section article a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+section article a:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+section article img {
+    width: 100%;
+    height: auto;
+}
+
+section article p {
+    padding: 0rem 0.5rem 0rem 0.5rem ;
+    font-style: italic;
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2 {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+footer p {
+    color: white;
+    padding: 0 2rem 0 2rem;
+    display: inline-block;
+}
+
+footer a {
+    padding: 0 1rem 0 1rem;
+}
+
+footer section {
+    text-align: center;
+    transition: color 0.3 ease ;
+    float: center;
+    text-decoration: none;
+}
+
+footer a:link, footer a:visited {
+    color: rgb(85, 134, 153);
+}
+
+footer a:hover {
+    color: rgb(220, 245, 255);
+}
